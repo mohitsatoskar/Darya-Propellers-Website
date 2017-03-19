@@ -1,0 +1,751 @@
+﻿*
+{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	font-family: Calibri;
+}
+
+body
+{
+	background-image: url(  '../Images/BG2.jpg' );
+}
+
+
+
+.logo
+{
+	left: 50px;
+	position: absolute;
+	z-index: 3;
+	width: 200px;
+}
+
+.tableCont
+{
+	width: 100%;
+}
+
+.topLeft
+{
+	height: 150px;
+	padding-left: 40px;
+	background-color: rgb(186, 189, 194);
+}
+
+.topRight
+{
+	height: 150px;
+	padding-right: 40px;
+	text-align: right;
+	background-color: rgb(1,53,103);
+}
+
+.topCenter
+{
+	height: 150px;
+	background-color: rgb(1,53,103);
+}
+
+/******** menu ********/
+
+.navCont
+{
+	height: 34px;
+	background: rgb(186,189,194);
+	border-bottom: solid 2px black;
+}
+.nav
+{
+	height: 75px;
+	background-image: url(  '../Images/Header.png' );
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	z-index: 2;
+}
+
+.drop_menu
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	height: 75px;
+	position: absolute;
+	margin-left: 250px;
+}
+
+.drop_menu li
+{
+	float: left;
+	display: block;
+	height: 75px;
+}
+.drop_menu li a
+{
+	padding: 0px 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font: 18px arial, verdana, sans-serif;
+	font-weight: bold;
+	line-height: 75px;
+}
+
+/* Submenu */
+.drop_menu ul
+{
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	list-style-type: none;
+}
+
+.drop_menu li:hover
+{
+	position: relative;
+	background: rgb(228,17,112);
+}
+.drop_menu li:hover a
+{
+	color: #fff;
+}
+.drop_menu li:hover ul
+{
+	left: 0px;
+	top: 75px;
+	background-image: url(  '../Images/Header.png' );
+	padding: 0px;
+}
+
+.drop_menu li:hover ul li a
+{
+	display: block;
+	width: 190px;
+	text-indent: 15px;
+	background-image: url(  '../Images/Header.png' );
+}
+
+.drop_menu li:hover ul li a:hover
+{
+	background: none;
+	background-image: url(  '../Images/Header.png' );
+	color: #fff; /*rgb(1,53,103);*/
+}
+
+/******** menu ********/
+
+/******** Content Pages *******/
+
+.tableContent
+{
+	width: 100%;
+	padding-top: 150px;
+}
+
+.tableContent td
+{
+	vertical-align: top;
+	text-align: justify;
+}
+
+.tdLeft
+{
+	width: 240px;
+	text-align: justify;
+	padding: 10px 30px;
+	background-color: rgb(230,210,190);
+	box-shadow: 5px 5px 5px gray;
+}
+
+tdLeft ul
+{
+}
+
+.tdLeft ul li
+{
+	padding: 5px 0px;
+}
+
+.tdRight
+{
+	padding: 10px 100px 10px 20px;
+}
+
+.tdRight ul
+{
+	padding-left: 40px;
+	padding-bottom: 20px;
+}
+
+.tblCustom
+{
+	padding: 20px 0px;
+}
+.tblCustom td
+{
+	width: 33.33%;
+	border: solid 1px gray;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.tblCustom td ul
+{
+	padding-left: 20px;
+}
+
+.tblPropInfo
+{
+	width: 100%;
+	font-size: 18px;
+}
+
+.tblPropInfo td
+{
+	vertical-align: middle;
+	border: solid 1px gray;
+	padding: 5px;
+}
+
+.procurement
+{
+	padding: 10px 30px;
+	font-size: 18px;
+}
+.procurement ul
+{
+}
+
+.procurement ul li
+{
+	padding: 5px 0px;
+}
+.propHeading
+{
+	height: 72px;
+	background-image: url(  '../Images/strip.png' );
+	background-repeat: no-repeat;
+}
+
+.formHeading
+{
+	padding: 0px;
+	color: White;
+	text-align: center;
+	background-color: rgb(140, 90, 55);
+	font-size: 22px;
+	padding: 5px 0px;
+	width: 100%;
+}
+
+.tblCustomHeading
+{
+	padding: 0px;
+	background-color: rgb(140, 90, 55);
+	color: White;
+}
+.tblCustomHeading h4
+{
+	text-align: center;
+}
+.tdLeftHeaders
+{
+	background-color: rgb(140,90,55);
+	font-size: 20px;
+	color: White;
+	line-height: 30px;
+	width: 100%;
+	padding: 10px;
+	margin-left: -10px;
+	font-weight: bold;
+}
+
+.tdLeftHeadersHome
+{
+	background-color: rgb(140,90,55);
+	font-size: 20px;
+	color: White;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+.tblHome
+{
+	margin: 10px 0px;
+}
+.tblHome table
+{
+	width: 100%;
+}
+
+.tblHome table td
+{
+	width: 33.33%;
+	vertical-align: top;
+	box-shadow: 5px 5px 5px gray;
+	background-color: rgb(230,210,190);
+}
+
+.tblHome table td h3
+{
+	padding: 5px 0px 5px 5px;
+}
+.tblHome table td ul
+{
+	margin: 0px 10px;
+}
+#quickLink
+{
+}
+
+#quickLink ul
+{
+	list-style: none;
+}
+
+#quickLink ul li
+{
+	font-size: 18px;
+	line-height: 30px;
+	border-bottom: solid 1px #647F9A;
+}
+
+#quickLink ul li a
+{
+	color: Black;
+}
+
+#quickLink ul li a:hover
+{
+	color: black;
+	padding-left: 10px;
+}
+
+
+#inspirationLeft
+{
+	padding: 10px;
+	box-shadow: 5px 10px 50px gray;
+}
+
+#inspirationLeft table td
+{
+	text-align: left;
+	width: 50%;
+	padding: 10px;
+}
+
+p
+{
+	font-size: 18px;
+	padding: 5px 0px;
+}
+h4
+{
+	padding: 5px 0px;
+}
+
+
+/******** Content Pages *******/
+
+
+
+/******** slider *******/
+#contSlider
+{
+	margin: 0px auto;
+	position: relative;
+	width: 100%;
+}
+
+#contSlider > div
+{
+	position: absolute;
+}
+
+#contSlider > div h4
+{
+	text-align: right;
+	font-size: 22px;
+}
+.sliderImg
+{
+	width: 100%;
+}
+
+.SliderContainer
+{
+	width: 100%;
+}
+
+/******** slider *******/
+
+
+
+
+/******** bottom *******/
+.bottom
+{
+	margin-top: 20px;
+	width: 100%;
+	background-image: url(  '../Images/Header.png' ); /*height: 150px;	*/
+}
+
+.bottomHome
+{
+	margin-top: 20px;
+	width: 100%;
+	background-image: url(  '../Images/Header.png' );
+	height: 150px;
+	position: absolute;
+}
+
+.tablebottom
+{
+	width: 100%;
+	height: 150px;
+}
+
+.bottomLeft
+{
+	height: 150px;
+	width: 25%;
+	padding-left: 40px;
+}
+.bottomLeft img
+{
+	width: 100%;
+}
+.bottomCenter
+{
+	color: White;
+	text-align: center;
+}
+.bottomRight
+{
+	height: 150px;
+	width: 150px;
+	padding-right: 40px;
+	text-align: right;
+}
+
+.tablebottom td ul
+{
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.tablebottom td ul li
+{
+	display: inline-block;
+	padding: 0px 10px;
+	border-right: solid 1px white;
+}
+.tablebottom td ul li:hover a
+{
+	color: rgb(228,17,112);
+}
+.tablebottom td ul li a
+{
+	color: White;
+}
+
+/******** bottom *******/
+
+
+
+
+
+/******** social *******/
+
+#fb
+{
+	width: 68px;
+	height: 50px;
+	position: fixed;
+	top: 100px;
+	right: -18px;
+	background-image: url(  '../Images/Social/fb.jpg' );
+}
+#gp
+{
+	width: 68px;
+	height: 50px;
+	position: fixed;
+	top: 170px;
+	right: -18px;
+	background-image: url(  '../Images/Social/gplus.jpg' );
+}
+#tw
+{
+	width: 68px;
+	height: 50px;
+	position: fixed;
+	top: 170px;
+	right: -18px;
+	background-image: url(  '../Images/Social/tw.jpg' );
+}
+#yt
+{
+	width: 68px;
+	height: 50px;
+	position: fixed;
+	top: 170px;
+	right: -18px;
+	background-image: url(  '../Images/Social/yt.jpg' );
+}
+#in
+{
+	width: 68px;
+	height: 50px;
+	position: fixed;
+	top: 170px;
+	right: -18px;
+	background-image: url(  '../Images/Social/in.jpg' );
+}
+
+.social
+{
+}
+
+
+/******** social *******/
+
+/******** form *********/
+
+/*CSS for dropdown box*/
+select
+{
+	width: 100%;
+	margin-top: 5px;
+	height: 29px;
+	border-radius: 3px;
+	border: 1px solid #CCC;
+	font-weight: 200;
+	font-size: 15px;
+	font-family: Verdana;
+	box-shadow: 1px 1px 5px #CCC;
+}
+select: hover
+{
+	width: 95%;
+	margin-top: 5px;
+	height: 29px;
+	border-radius: 3px;
+	border: 1px solid #CCC;
+	font-weight: 200;
+	font-size: 15px;
+	font-family: Verdana;
+	box-shadow: 1px 1px 5px #CCC;
+}
+
+/*CSS for input textbox and password*/
+
+input[type='text'], input[type='password']
+{
+	width: 93%;
+	height: 20px;
+	border-radius: 3px;
+	border: 1px solid #CCC;
+	padding: 8px;
+	margin-top: 5px;
+	margin-bottom: 4px;
+	font-weight: 200;
+	font-size: 15px;
+	font-family: Verdana;
+	box-shadow: 1px 1px 5px #CCC;
+}
+
+input[type='text']:hover, input[type='password']:hover
+{
+	height: 20px;
+	margin-top: 5px;
+	border-radius: 3px;
+	border: 1px solid #aaa;
+	padding: 8px;
+	font-weight: 200;
+	font-size: 15px;
+	font-family: Verdana;
+	box-shadow: 1px 1px 5px #CCC;
+}
+
+/*CSS for textarea*/
+
+textarea
+{
+	width: 93%;
+	height: 100px;
+	margin-bottom: 4px;
+	border-radius: 3px;
+	border: 1px solid #CCC;
+	padding: 8px;
+	font-weight: 200;
+	font-size: 15px;
+	font-family: Verdana;
+	box-shadow: 1px 1px 5px #CCC;
+	margin-top: 10px;
+}
+textarea:hover
+{
+	margin-top: 10px;
+	height: 100px;
+	border-radius: 3px;
+	border: 1px solid #aaa;
+	padding: 8px;
+	font-weight: 200;
+	font-size: 15px;
+	font-family: Verdana;
+	box-shadow: 1px 1px 5px #CCC;
+}
+
+/*input type for submit button*/
+
+input[type='submit']
+{
+	width: 100px;
+	height: 36px;
+	border: 2px solid white;
+	background-color: #50677E;
+	font-size: medium;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	color: White;
+}
+input[type='submit']:hover
+{
+	width: 100px;
+	height: 36px;
+	margin-top: 5px;
+	border: 2px solid white;
+	background-color: #013567;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+input[type='button']
+{
+	width: 100px;
+	height: 36px;
+	border: 2px solid white;
+	background-color: #50677E;
+	font-size: medium;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	color: White;
+}
+input[type='button']:hover
+{
+	width: 100px;
+	height: 36px;
+	margin-top: 5px;
+	border: 2px solid white;
+	background-color: #013567;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.text-label
+{
+	color: rgb(150,150,150);
+}
+
+/******** form *********/
+
+
+/***** AdmTable****/
+
+.admTbl
+{
+	width: 100%;
+	font-size: 18px;
+	margin-left: 20px;
+}
+.admTbl td
+{
+	width: 33%;
+}
+.admTbl td a
+{
+	color: Maroon;
+	text-decoration: underline;
+}
+
+
+/********** Modal Box *********/
+
+.web_dialog_overlay
+{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #000000;
+	opacity: .15;
+	filter: alpha(opacity=15);
+	-moz-opacity: .15;
+	z-index: 101;
+	display: none;
+}
+.web_dialog
+{
+	display: none;
+	position: fixed;
+	width: 380px;
+	height: 410px;
+	top: 50%;
+	left: 50%;
+	margin-left: -190px;
+	margin-top: -205px;
+	background-color: #ffffff;
+	border: 2px solid #336699;
+	padding: 0px;
+	z-index: 102;
+	font-family: Verdana;
+	font-size: 10pt;
+	box-shadow:5px 5px 5px gray;
+}
+.web_dialog_title
+{
+	border-bottom: solid 2px #336699;
+	background-color: #336699;
+	padding: 4px;
+	padding-left:10px;
+	color: White;
+	font-weight: bold;
+	background-color: rgb(140, 90, 55);
+	font-size: 22px;
+}
+.web_dialog_title a
+{
+	color: White;
+	text-decoration: none;
+}
+.align_right
+{
+	text-align: right;
+}
+
+.btnShowSimple
+{
+	padding: 5px;
+	background-color: Maroon;
+	color: White;
+	text-align: center;
+	font-weight: bold;
+	cursor:pointer;
+}
+.btnShowModal
+{
+	padding: 5px;
+	background-color: Maroon;
+	color: White;
+	text-align: center;
+	font-weight: bold;
+}
+
+/********** Modal Box *********/
